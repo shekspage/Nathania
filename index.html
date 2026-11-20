@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Nathania</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #090909;
+    color: #eee9df;
+    font-family: Georgia, serif;
+    min-height: 100vh;
+}
+
+.screen {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 22px;
+    text-align: center;
+}
+
+#opening {
+    transition: opacity 0.8s ease;
+}
+
+.small {
+    color: #a99777;
+    letter-spacing: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: clamp(34px, 9vw, 55px);
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.subtitle {
+    color: #aaa49a;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 42px;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #a99777;
+    color: #eee9df;
+    padding: 15px 38px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #a99777;
+    color: #090909;
+}
+
+.curiosity {
+    margin-top: 35px;
+    font-size: 12px;
+    color: #777;
+    font-style: italic;
+}
+
+#letter {
+    display: none;
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+    padding: 65px 25px;
+    animation: appear 1.2s ease;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.letter-title {
+    text-align: center;
+    font-size: 29px;
+    font-weight: normal;
+    margin-bottom: 35px;
+    color: #d7c5a5;
+}
+
+.letter-text {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 2;
+    color: #d2cec6;
+    white-space: normal;
+}
+
+.ending {
+    text-align: center;
+    margin-top: 55px;
+    padding-bottom: 40px;
+    color: #a99777;
+    font-style: italic;
+    line-height: 2;
+}
+
+.heart {
+    font-size: 23px;
+    margin-top: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<section class="screen" id="opening">
+
+    <div class="small">A little something for you</div>
+
+    <h1>For Nathania.</h1>
+
+    <p class="subtitle">
+        Some things are better read<br>
+        than explained.
+    </p>
+
+    <button onclick="openLetter()">OPEN ME</button>
+
+    <p class="curiosity">
+        You know you're curious...
+    </p>
+
+</section>
+
+<section id="letter">
+
+    <h2 class="letter-title">Happy birthday, Nathania.</h2>
+
+    <div class="letter-text">
+Happy birthday, Nathania. Honestly, I've been trying to put this together since the beginning of the week, and with my school stuff going on, you'd think I was writing a whole damn thesis 😭, but I wanted to take my time with this because you deserve more than a random “happy birthday, enjoy your day” text....... It's actually crazy how some people walk into your life and end up meaning so much without even trying, and you were one of those people for me. We went through our little chapter, shared conversations, laughter, affection, and moments I genuinely enjoyed, and even though life took us in a direction neither of us probably imagined, I don't regret getting to know you. I won't lie and act like moving on was some easy shiiii, because getting used to talking to someone almost every day and then suddenly having to adjust to their absence is a different kind of experience, but life happens, and sometimes we have to accept things for what they are instead of constantly questioning what they could have been. Anyway, enough about all that, today's about uuuuuù, so let me not turn your birthday into a whole Netflix documentary about our past 😭. I still remember some of the things you told me about what you were going through, the fallout with your parents, those fake @ss friends, school becoming difficult, everything piling up on you, and some of the darkest moments you had to deal with. Honestly, I wish life had been a little kinder to you because you really didn't deserve to have to go through all that. I hope you never let the things you've experienced convince you that you're not worth good things, because you are, and your past doesn't get to decide the kind of future you deserve. And being the firstborn too? Damn, you have your own things to deal with, but somehow you're still expected to set an example, be responsible, and be someone your siblings can look up to. But I hope you know that even the big sister needs a break sometimes, even the one everyone looks up to gets to have bad days, gets to be confused, gets to make mistakes, and doesn't always have to have everything figured out. You don't have to prove your strength every damn day. I genuinely hope this new age brings you peace of mind, better days, genuine people, good grades because we cannot be fighting academics forever 😹, beautiful opportunities, and happiness that isn't temporary. May Allah bless you, protect you, guide you, make things easier for you, and grant you the kind of happiness that finds you even on days when you're not looking for it. And whatever life has planned for you, I hope it turns out better than anything you've been quietly praying for. Thank you for the time we shared, for the conversations, the laughs, the random moments, and for simply being a part of my life at one point. I may not be where I once was emotionally, but that doesn't mean I suddenly forget the good you brought into my life or stop appreciating the person you are. Some people leave a mark without necessarily staying forever, and I think that's something I've come to understand. You're one of those people I'll always remember with genuine appreciation, and I hope life gives you a million reasons to smile, even on those days when you're acting like the world's biggest menace 😹......Happy birthday, bby. Enjoy your day, eat cake, be annoying, laugh too loud, take pictures, and please don't start acting ancient now because it's literally just another year. You deserve a beautiful life, Nathania, and I genuinely hope you get to live one. 🤍
+    </div>
+
+    <div class="ending">
+        Some people leave a mark<br>
+        without necessarily staying forever.
+
+        <div class="heart">🤍</div>
+    </div>
+
+</section>
+
+<script>
+function openLetter() {
+    const opening = document.getElementById("opening");
+    const letter = document.getElementById("letter");
+
+    opening.style.opacity = "0";
+
+    setTimeout(() => {
+        opening.style.display = "none";
+        letter.style.display = "block";
+        window.scrollTo(0, 0);
+    }, 800);
+}
+</script>
+
+</body>
+</html>
